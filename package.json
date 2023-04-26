@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:docs": "api-extractor run --local && api-documenter markdown -i docs/temp -o docs"
+    "build:docs": "api-extractor run --local --diagnostics"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@microsoft/api-documenter": "^7.21.7",
     "@microsoft/api-extractor": "^7.34.4"
   }
 }
